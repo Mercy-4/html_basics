@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        table {
+            width: 50%;
+            background-color: black;
+            border: 1px solid black;
+            margin: auto;
+            /*margin is the distance between the edge and the next neigbour, distance on the left and right is the same */
+            border-collapse: collapse;
+            /* border collapse to merge individual borders to one border */
+        }
+
+        th {
+            color: rgb(202, 182, 2);
+            border: 1px solid black;
+            padding: 12px 8px;
+            /* padding used when your content is too close to the edge, top, bottom, left and right */
+            text-align: left;
+            background-color: black;
+        }
+
+        td {
+            color: rgb(202, 182, 2);
+            border: 1px dotted black;
+            padding: 12x 8px;
+            text-align: left;
+        }
+        .salary{
+            color: rgb(104, 225, 241);
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>City</th>
+                <th>Age</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rebbeca</td>
+                <td>Wanjiru</td>
+                <td>Nyeri</td>
+                <td>59</td>
+                <td class="salary">105000</td>
+            </tr>
+
+            <tr>
+                <td>George</td>
+                <td>Kamau</td>
+                <td>Nairobi</td>
+                <td>36</td>
+                <td class="salary">130000</td>
+            </tr>
+            <tr>
+                <td>Mary</td>
+                <td>Mugure</td>
+                <td>Mombasa</td>
+                <td>39</td>
+                <td class="salary">190000</td>
+            </tr>
+            <tr>
+                <td>Mercy</td>
+                <td>Kinyunye</td>
+                <td>Nakuru</td>
+                <td>27</td>
+                <td class="salary">160000</td>
+            </tr>
+
+            <tr>
+                <td>Merlin</td>
+                <td>Goss</td>
+                <td>Ennis</td>
+                <td>40</td>
+                <td class="salary">160000</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+    <!--list  -->
+    <ul>
+        <li>Nairobi</li>
+        <li>Dublin</li>
+        <li>New York</li>
+        <li>London</li>
+        <li>Delhi</li>
+    </ul>
+
+</body>
+
+</html>
